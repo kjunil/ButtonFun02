@@ -26,6 +26,9 @@ class ViewController: UIViewController {
         count = count + 1
         mylabel.text = "잘되네 하하"
         countlabel.text = String(count)
+        if(count == 10){
+            count = 0
+        }
         
     }
     
